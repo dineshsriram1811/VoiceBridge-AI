@@ -1,0 +1,15 @@
+{
+  "name": "voicebridge-ai-root",
+  "version": "1.0.0",
+  "description": "VoiceBridge AI - Indian Multilingual Voice Assistant with Gnani AI Prisma V3.0, Timbre V3.0 & Evon",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node dev.js",
+    "test": "cd backend && npm test",
+    "build": "cd frontend && npm run build",
+    "samples": "cd backend && node scripts/generate-samples.js",
+    "install:all": "cd backend && npm install && cd ../frontend && npm install"
+  }
+}
+
